@@ -1,0 +1,28 @@
+# build output
+/out/
+/build/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# vendored prebuilt library is kept on purpose
+!third_party/freetype.lib
+
+# runtime files the panel writes next to the exe
+account_panel.txt
+account_panel_hidden.txt
+account_panel_launch.txt
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+.DS_Store
